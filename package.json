@@ -1,0 +1,22 @@
+{
+  "name": "dezhou-backend",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "ts-node index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "serve": "node dist/index.js"
+  },
+  "dependencies": {
+    "express": "^4.22.2",
+    "ws": "^8.21.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/ws": "^8.18.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
+  }
+}
